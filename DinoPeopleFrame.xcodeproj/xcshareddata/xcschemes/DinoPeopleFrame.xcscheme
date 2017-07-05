@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E232F7AC1F0A785E00B5DE09"
+               BlueprintIdentifier = "E232F7D01F0A791600B5DE09"
                BuildableName = "DinoPeopleFrameTests.xctest"
                BlueprintName = "DinoPeopleFrameTests"
                ReferencedContainer = "container:DinoPeopleFrame.xcodeproj">

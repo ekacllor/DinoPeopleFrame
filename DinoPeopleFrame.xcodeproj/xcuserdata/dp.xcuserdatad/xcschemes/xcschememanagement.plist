@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DinoPeopleFrame.xcscheme</key>
+		<key>DinoPeopleFrame.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +18,16 @@
 			<true/>
 		</dict>
 		<key>E232F7AC1F0A785E00B5DE09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E232F7C11F0A78CB00B5DE09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E232F7D01F0A791600B5DE09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

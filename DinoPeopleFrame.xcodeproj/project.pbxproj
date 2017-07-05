@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E232F7AE1F0A785E00B5DE09 /* DinoPeopleFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E232F7A41F0A785D00B5DE09 /* DinoPeopleFrame.framework */; };
-		E232F7B31F0A785E00B5DE09 /* DinoPeopleFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232F7B21F0A785E00B5DE09 /* DinoPeopleFrameTests.swift */; };
 		E232F7B51F0A785E00B5DE09 /* DinoPeopleFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = E232F7A71F0A785D00B5DE09 /* DinoPeopleFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E232F7D41F0A791600B5DE09 /* DinoPeopleFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232F7D31F0A791600B5DE09 /* DinoPeopleFrameTests.swift */; };
+		E232F7D61F0A791600B5DE09 /* DinoPeopleFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E232F7A41F0A785D00B5DE09 /* DinoPeopleFrame.framework */; };
+		E232F7DD1F0A7CB900B5DE09 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232F7DC1F0A7CB900B5DE09 /* UIView+Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E232F7AF1F0A785E00B5DE09 /* PBXContainerItemProxy */ = {
+		E232F7D71F0A791600B5DE09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E232F79B1F0A785D00B5DE09 /* Project object */;
 			proxyType = 1;
@@ -26,9 +27,10 @@
 		E232F7A41F0A785D00B5DE09 /* DinoPeopleFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DinoPeopleFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E232F7A71F0A785D00B5DE09 /* DinoPeopleFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinoPeopleFrame.h; sourceTree = "<group>"; };
 		E232F7A81F0A785D00B5DE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E232F7AD1F0A785E00B5DE09 /* DinoPeopleFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoPeopleFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E232F7B21F0A785E00B5DE09 /* DinoPeopleFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoPeopleFrameTests.swift; sourceTree = "<group>"; };
-		E232F7B41F0A785E00B5DE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E232F7D11F0A791600B5DE09 /* DinoPeopleFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoPeopleFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E232F7D31F0A791600B5DE09 /* DinoPeopleFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoPeopleFrameTests.swift; sourceTree = "<group>"; };
+		E232F7D51F0A791600B5DE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E232F7DC1F0A7CB900B5DE09 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +41,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E232F7AA1F0A785E00B5DE09 /* Frameworks */ = {
+		E232F7CE1F0A791600B5DE09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E232F7AE1F0A785E00B5DE09 /* DinoPeopleFrame.framework in Frameworks */,
+				E232F7D61F0A791600B5DE09 /* DinoPeopleFrame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E232F7A61F0A785D00B5DE09 /* DinoPeopleFrame */,
-				E232F7B11F0A785E00B5DE09 /* DinoPeopleFrameTests */,
+				E232F7D21F0A791600B5DE09 /* DinoPeopleFrameTests */,
 				E232F7A51F0A785D00B5DE09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				E232F7A41F0A785D00B5DE09 /* DinoPeopleFrame.framework */,
-				E232F7AD1F0A785E00B5DE09 /* DinoPeopleFrameTests.xctest */,
+				E232F7D11F0A791600B5DE09 /* DinoPeopleFrameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,15 +75,16 @@
 			children = (
 				E232F7A71F0A785D00B5DE09 /* DinoPeopleFrame.h */,
 				E232F7A81F0A785D00B5DE09 /* Info.plist */,
+				E232F7DC1F0A7CB900B5DE09 /* UIView+Frame.swift */,
 			);
 			path = DinoPeopleFrame;
 			sourceTree = "<group>";
 		};
-		E232F7B11F0A785E00B5DE09 /* DinoPeopleFrameTests */ = {
+		E232F7D21F0A791600B5DE09 /* DinoPeopleFrameTests */ = {
 			isa = PBXGroup;
 			children = (
-				E232F7B21F0A785E00B5DE09 /* DinoPeopleFrameTests.swift */,
-				E232F7B41F0A785E00B5DE09 /* Info.plist */,
+				E232F7D31F0A791600B5DE09 /* DinoPeopleFrameTests.swift */,
+				E232F7D51F0A791600B5DE09 /* Info.plist */,
 			);
 			path = DinoPeopleFrameTests;
 			sourceTree = "<group>";
@@ -118,22 +121,22 @@
 			productReference = E232F7A41F0A785D00B5DE09 /* DinoPeopleFrame.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E232F7AC1F0A785E00B5DE09 /* DinoPeopleFrameTests */ = {
+		E232F7D01F0A791600B5DE09 /* DinoPeopleFrameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E232F7BB1F0A785E00B5DE09 /* Build configuration list for PBXNativeTarget "DinoPeopleFrameTests" */;
+			buildConfigurationList = E232F7D91F0A791600B5DE09 /* Build configuration list for PBXNativeTarget "DinoPeopleFrameTests" */;
 			buildPhases = (
-				E232F7A91F0A785E00B5DE09 /* Sources */,
-				E232F7AA1F0A785E00B5DE09 /* Frameworks */,
-				E232F7AB1F0A785E00B5DE09 /* Resources */,
+				E232F7CD1F0A791600B5DE09 /* Sources */,
+				E232F7CE1F0A791600B5DE09 /* Frameworks */,
+				E232F7CF1F0A791600B5DE09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E232F7B01F0A785E00B5DE09 /* PBXTargetDependency */,
+				E232F7D81F0A791600B5DE09 /* PBXTargetDependency */,
 			);
 			name = DinoPeopleFrameTests;
 			productName = DinoPeopleFrameTests;
-			productReference = E232F7AD1F0A785E00B5DE09 /* DinoPeopleFrameTests.xctest */;
+			productReference = E232F7D11F0A791600B5DE09 /* DinoPeopleFrameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,9 +151,10 @@
 				TargetAttributes = {
 					E232F7A31F0A785D00B5DE09 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
-					E232F7AC1F0A785E00B5DE09 = {
+					E232F7D01F0A791600B5DE09 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -169,7 +173,7 @@
 			projectRoot = "";
 			targets = (
 				E232F7A31F0A785D00B5DE09 /* DinoPeopleFrame */,
-				E232F7AC1F0A785E00B5DE09 /* DinoPeopleFrameTests */,
+				E232F7D01F0A791600B5DE09 /* DinoPeopleFrameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +186,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E232F7AB1F0A785E00B5DE09 /* Resources */ = {
+		E232F7CF1F0A791600B5DE09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,24 +200,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E232F7DD1F0A7CB900B5DE09 /* UIView+Frame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E232F7A91F0A785E00B5DE09 /* Sources */ = {
+		E232F7CD1F0A791600B5DE09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E232F7B31F0A785E00B5DE09 /* DinoPeopleFrameTests.swift in Sources */,
+				E232F7D41F0A791600B5DE09 /* DinoPeopleFrameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E232F7B01F0A785E00B5DE09 /* PBXTargetDependency */ = {
+		E232F7D81F0A791600B5DE09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E232F7A31F0A785D00B5DE09 /* DinoPeopleFrame */;
-			targetProxy = E232F7AF1F0A785E00B5DE09 /* PBXContainerItemProxy */;
+			targetProxy = E232F7D71F0A791600B5DE09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +327,7 @@
 		E232F7B91F0A785E00B5DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinopeople.DinoPeopleFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +347,7 @@
 		E232F7BA1F0A785E00B5DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,9 +363,10 @@
 			};
 			name = Release;
 		};
-		E232F7BC1F0A785E00B5DE09 /* Debug */ = {
+		E232F7DA1F0A791600B5DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DinoPeopleFrameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinopeople.DinoPeopleFrameTests;
@@ -366,9 +375,10 @@
 			};
 			name = Debug;
 		};
-		E232F7BD1F0A785E00B5DE09 /* Release */ = {
+		E232F7DB1F0A791600B5DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DinoPeopleFrameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinopeople.DinoPeopleFrameTests;
@@ -397,11 +407,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E232F7BB1F0A785E00B5DE09 /* Build configuration list for PBXNativeTarget "DinoPeopleFrameTests" */ = {
+		E232F7D91F0A791600B5DE09 /* Build configuration list for PBXNativeTarget "DinoPeopleFrameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E232F7BC1F0A785E00B5DE09 /* Debug */,
-				E232F7BD1F0A785E00B5DE09 /* Release */,
+				E232F7DA1F0A791600B5DE09 /* Debug */,
+				E232F7DB1F0A791600B5DE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
